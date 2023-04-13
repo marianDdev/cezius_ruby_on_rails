@@ -1,0 +1,19 @@
+<section class="bg-white dark:bg-gray-900">
+  <div class="py-8 px-4 mx-auto max-w-screen-xl lg:py-16 lg:px-6 ">
+    <div class="mx-auto max-w-screen-sm text-center mb-10 lg:mb-16">
+      <h2 class="mb-4 text-4xl tracking-tight font-extrabold text-gray-900 dark:text-white">Our projects</h2>
+    </div>
+
+    <div class="grid gap-8 mb-6 lg:mb-16 md:grid-cols-1">
+      <%= link_to 'https://cezagora.com', target: :_blank do %>
+        <div class="items-center bg-gray-50 rounded-lg shadow sm:flex dark:bg-gray-800 dark:border-gray-700">
+          <%= image_tag "cezagora_logo.png", class: "w-64 h-64 rounded sm:rounded-none sm:rounded-l-lg" %>
+          <div class="p-5">
+            <h3 class="text-gray-500 dark:text-gray-400">Find suppliers, manufacturers, resellers
+              and distributors in your industry easier and faster.</h3>
+          </div>
+        </div>
+      <% end %>
+    </div>
+  </div>
+</section>
